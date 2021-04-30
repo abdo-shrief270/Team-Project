@@ -414,6 +414,120 @@ h6,
 
 
 /* Ftoh Tarek  section*/
+
+/* foundation section */
+#foundation h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4c7397  !important;
+}
+#foundation p{
+    margin: 0 20%;
+    font-size: 1rem;
+    font-weight: 200 !important;
+    color: #111111;
+}
+#foundation button{
+    border: none;
+    padding: 10px 30px;
+    color: rgb(32, 31, 31);
+    letter-spacing: 2;
+    font-size: .9rem;
+    background-color: #f1c50e;
+}
+#foundation button:hover{
+    background-color:#d1ac1a;
+}
+
+#foundation .parent .middel{
+    width: 721px;
+    height: 721px;
+    border-radius: 50%;
+    position: relative;
+    background-image:url("../image/trdt-min.jpg") ;
+    background-size: cover;
+    background-color: lawngreen;
+}
+#foundation .parent .after{
+    width:40%;
+    height:40%;
+    border-radius: 50%;
+    background-image: url("../image/construction-plans-with-yellow-helmet-drawing-tools-bluep_1232-29401.jpg");
+    background-color: yellow;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -15%;
+    top: -10%;
+}
+#foundation .parent .after::after{
+    content: " ";
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-image:repeating-linear-gradient(-45deg,
+    #72efe9  0% ,#72efe9 2%,
+    white 2%,white 7%
+    );
+    position: absolute;
+    left: 44%;
+    top: -5%;
+    Z-index: -1;
+
+}
+#foundation .parent .before{
+    width:30%;
+    height:30%;
+    border-radius: 50%;
+    background-color: #f1c50e;
+    position: absolute;
+    bottom:5%;
+    right:-11%;
+}
+#foundation .parent .before::after{
+    content: " ";
+    width: 125%;
+    height: 125%;
+    border-radius: 50%;
+    background-image:repeating-linear-gradient(-45deg,
+    #72efe9  0% ,#72efe9 2%,
+    white 2%,white 8%
+    );
+    position: absolute;
+    right: -10%;
+    bottom: 40%;
+    Z-index: -1;
+
+}
+#foundation .middel::after{
+    content: " ";
+    width: 23%;
+    height: 23%;
+    border-radius: 50%;
+    background-image:radial-gradient(
+    transparent 2%,transparent 45%,
+    #ccd3db 45%
+    );
+    position: absolute;
+    left: -25%;
+    bottom: 5%;
+}
+#foundation .p3{
+    font-size: 1.1rem;
+    color: #808080 !important;
+    padding: 30px 15px;
+}
+#foundation .p3 a{
+    font-size: 1.1rem ;
+    font-weight: 200;
+    text-decoration: underline;
+    color: #808080 !important ;
+}
+
+
+
+
 /* ----------------- */
 /* End of Ftoh Tarek  section*/
 
@@ -513,5 +627,5 @@ h6,
 /* ----------------- */
 /* End of Ahmed Atef services section*/
 
-
+/* ftoh tarek */
 
