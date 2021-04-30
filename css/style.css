@@ -692,6 +692,7 @@ h6,
 
 /* Glal  Mohamed section*/
 /* ----------------- */
+
 /* End of Glal  Mohamed section*/
 
 
@@ -701,3 +702,22 @@ h6,
 
 /* ftoh tarek */
 
+/* start mohamed omar section */
+.chef-img{
+    position: relative;
+}
+.chef-title{
+    background-color:  #0c1023;
+    width: 80%;
+    position: absolute;
+    bottom: -10%;
+    right: 10%;
+    transition: all 0.7s;
+}
+.chef:hover .chef-title{
+    background-color: #eaa023;
+    position: absolute;
+    bottom: 7%;
+    right: 10%;
+}
+/*end mohamed omar section */
