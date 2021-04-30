@@ -444,7 +444,7 @@ h6,
     height: 721px;
     border-radius: 50%;
     position: relative;
-    background-image:url("../image/trdt-min.jpg") ;
+    background-image:url("../images/trdt-min.jpg") ;
     background-size: cover;
     background-color: lawngreen;
 }
@@ -452,7 +452,7 @@ h6,
     width:40%;
     height:40%;
     border-radius: 50%;
-    background-image: url("../image/construction-plans-with-yellow-helmet-drawing-tools-bluep_1232-29401.jpg");
+    background-image: url("../images/construction-plans-with-yellow-helmet-drawing-tools-bluep_1232-29401.jpg");
     background-color: yellow;
     background-size: cover;
     background-position: bottom;
@@ -525,8 +525,80 @@ h6,
     color: #808080 !important ;
 }
 
-
-
+@media screen and (max-width:1200px){
+    #foundation .parent .middel{
+        width: 703px;
+        height: 703px;
+        border-radius: 50%;
+    }
+    #foundation .parent .after{
+        left: -10%;
+        top: -15%;
+    }
+    #foundation .middel::after{
+        left: -15%;
+        bottom: 0%;
+    }
+    #foundation .parent{
+        margin-top: 150px !important;
+    }
+}
+@media screen and (max-width:992px){
+    #foundation p{
+        margin: 0 15%;
+    }
+    #foundation .parent .middel{
+        width: 644px;
+        height: 644px;
+        border-radius: 50%;
+    }
+    #foundation .parent .after{
+        left: -5%;
+        top: -20%;
+    }
+    #foundation .middel::after{
+        left: -5%;
+        bottom: -10%;
+    }
+    #foundation .parent .before{
+        bottom:-5%;
+        right:-5%;
+    }
+}
+@media screen and (max-width:768px){
+    #foundation p{
+        margin: 0 10%;
+    }
+    /* sectioncontracting  please reset the img */
+    #foundation .parent .middel{
+        width: 520px;
+        height: 520px;
+    }
+    #foundation .parent .after{
+        left: 5%;
+        top: -30%;
+    }
+    #foundation .middel::after{
+        left: 5%;
+        bottom: -20%;
+    }
+    #foundation .parent .before{
+        bottom:-5%;
+        right:0%;
+    }
+}
+@media screen and (max-width:576px){
+    #foundation p{
+        margin: 0 5%;
+    }
+    #foundation .parent .middel{
+        width: 390px;
+        height: 390px;
+    }
+    #foundation .parent .after{
+        left: 15%;
+    }
+}
 
 /* ----------------- */
 /* End of Ftoh Tarek  section*/
