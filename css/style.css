@@ -721,3 +721,36 @@ h6,
     right: 10%;
 }
 /*end mohamed omar section */
+
+
+/* start of ahmed atef section */
+.eight{
+    height: 200px;
+    background-color: black;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.eight .fab{
+    color: white;
+    
+}
+
+.eight .eight2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.eight a{
+    text-decoration: none;
+    color: #ff305b;
+}
+.eight .p{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+/* end of ahmed atef section  */
