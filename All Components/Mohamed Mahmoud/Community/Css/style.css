@@ -1,0 +1,22 @@
+/* start global */
+body{
+    background-color: #E8EDF3;
+    text-transform: capitalize;
+}
+/* end global */
+
+/* start section */
+.section-header{
+    background-image: url(../image/home_desktop.png);
+    background-size: 100% 100%;
+    color:#fff;
+}
+
+.row a{
+    text-decoration: none;
+    color: #444;
+}
+.section-cord{
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+/* end section */
