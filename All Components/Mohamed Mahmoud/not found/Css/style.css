@@ -1,0 +1,21 @@
+/* start global */
+body{
+    background-color: #E8EDF3;
+}
+/* end global */
+/* start section */
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #09c;
+}
+.section-content{
+    padding: 20px 10px;
+    background-color: #E8EDF3;
+    border: 1px solid #f7b555;
+}
+.section-content a{
+    text-decoration: none;
+    color:#09c;
+}
+/* end section */
