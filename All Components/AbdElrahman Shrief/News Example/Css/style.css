@@ -1,0 +1,69 @@
+body {
+    color: #29333f;
+    background-color: #e3ecf0;
+}
+
+.bg-web {
+    background-color: #e3ecf0;
+
+}
+
+.img-pa {
+    cursor: pointer;
+}
+
+.img-pa:hover img {
+    transform: scale(1.1);
+}
+
+.img-pa img {
+    transition: all 0.3s;
+}
+
+.border-web {
+    border-bottom: 3px solid #16c1f5;
+}
+
+.border-web2 {
+    border-bottom: 1px solid #16c1f5;
+}
+
+.facebook {
+    color: #396098;
+}
+
+.twitter {
+    color: #4bc4f1;
+}
+
+.list li {
+    position: relative;
+}
+
+.list li::before {
+    background: #16c1f5 none repeat scroll 0 0;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    position: absolute;
+    left: -15px;
+    top: .6rem;
+    width: 8px;
+}
+.webColor{
+    color: #16c1f5;
+    cursor: pointer;
+}
+.publicherImg {
+    width: 65px;
+    height: 65px;
+    border: 3px solid #E3ECF0;
+    background-image: url("https://static.webteb.net/images/content/%D8%B1%D9%87%D8%A7%D9%85-%D8%AF%D8%B9%D8%A8%D8%A7%D8%B3_author_12_4842d1c2612-c503-491e-b483-c171fc73b11a.jpg");
+    background-position: center center;
+    background-size: 65px 65px;
+    transition: all 0.4s;
+}
+.publicherImg:hover{
+    opacity: 0.8;
+}
