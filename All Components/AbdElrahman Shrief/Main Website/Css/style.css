@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #29333f ;
+    background-color: #e3ecf0;
+}
+.img-pa {
+    cursor: pointer;
+}
+.img-pa:hover img{
+    transform: scale(1.1);
+}
+.img-pa img{
+transition: all 0.3s;    
+}
+.border-web{
+    border-bottom: 3px solid #16c1f5;
+}
+.mainCont{
+    width: 680px;
+}
