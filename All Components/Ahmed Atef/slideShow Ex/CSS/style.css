@@ -68,69 +68,38 @@ h1{
 }
 
 .section1{
-    background-image: url("https://static.webteb.net/new-webteb/index-images-2/desktop/drugs.jpg");
-    background-size: 100% 100%;
-    height: 250px;
-}
 
-.section1 h2{
-    color: white;
-}
-
-.section1 .cover{
-    background-color: rgba(52,105,123,0.5);
-    width: 100%;
-    height: 100%;
-}
-
-
-.section1 input{
-    border-top-left-radius: 0%;
-    border-bottom-left-radius:0% ;
-    border-bottom-right-radius: 20px;
-    width: 100%;
-    border: #f7b555 solid .5px;
-}
-.section1 .searchBtn{
-    width: 45px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color: #f7b555 ;
-}
-
-.section2{
     margin: auto;
-
 }
 
-.section2 h2{
+.section1 .content{
+  background-color: white;
+}
+
+.section1 a,h3{
+    text-decoration: none;
     color: #2b5464;
 
 }
 
-.section2 .line2{
-    width: 90%;
+.section1 .line2{
+    width: 100%;
     height: 2px;
     background-color: #16c1f5;
 }
 
-.section2 .line3{
+.section1 .line3{
     width: 100%;
     height: .5px;
     background-color: #16c1f5;
 }
 
-.section2 i{
+.section1 i{
     color: #16c1f5;
     font-size: 30px;
 }
 
-.section3{
-    border: #f7b555 solid .5px;
-    width: 80%;
-    margin: auto;
-    background-color: white;
-}
+
 
 
 .section{
