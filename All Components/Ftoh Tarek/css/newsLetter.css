@@ -1,0 +1,63 @@
+body {
+    background-color: #e3ecf0;
+  }
+.col-header {
+  background-color: rgba(119, 136, 153, 0.801);
+  padding: 10px 30px;
+  color: #fff;
+}
+.col-row {
+  background-color: #fff;
+  margin: 5px 0;
+  border-radius: 5px;
+  position: relative;
+  padding: 10px 0;
+}
+.col-content {
+  background-color: #fff;
+  padding: 20px;
+}
+.col-icon {
+  margin-left: 15px;
+  background-color: rgba(0, 0, 255, 0.555);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+.col-icon i {
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.945);
+}
+h5 {
+  color: #29333f;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+.col-row::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  height: 1px;
+  background-color: #8cd5e7;
+}
+.submit {
+  background-color: rgba(134, 21, 134, 0.719) !important;
+  color: #fff;
+  transition: all 0.5s;
+}
+.submit:hover {
+  color: #fff;
+  background-color: rgb(134, 21, 134) !important;
+}
+.form-check-input {
+    width: 25px;
+    height: 25px;
+    /* background-color: white !important; */
+  }
+@media screen and (max-width: 767px) {
+  .row {
+    margin: 0 5px;
+  }
+}
