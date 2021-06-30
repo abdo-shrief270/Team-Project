@@ -1,0 +1,130 @@
+
+* {
+  text-decoration: none !important;
+  list-style: none;
+}
+h1 {
+  font-size: 3.5em;
+  color: #008eb7;
+  font-family: "roboto", " bfont";
+  display: inline-block;
+  background-color: #fff;
+}
+h1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #d8edef;
+  border-radius: 2px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -1;
+}
+.catogeryAnchor::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all 1s;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.catogeryAnchor:hover::after {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.catogeryImg {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.catogeryCaption {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+}
+.catogeryCaption h3 {
+  font-size: 1.4em;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+.leftArrow {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #008eb7;
+  text-align: center;
+}
+.catogery i {
+  line-height: 28px;
+  padding-right: 2px;
+  color: #fff;
+  font-size: 16px;
+}
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 14px;
+  }
+  .catogeryCaption {
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+  .indcation {
+    display: block !important;
+  }
+}
+/*  */
+.bodyContent {
+  width: fit-content;
+  margin: auto;
+  position: relative;
+}
+.list li {
+  position: absolute;
+}
+.list a {
+  position: relative;
+  color: #0f7d9e;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.list a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 88px !important;
+  height: 88px !important;
+  border-radius: 100%;
+  border: 4px solid #d8edef;
+  margin-top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s;
+}
+.list a:hover,
+.list a:hover::after {
+  border-color: rgba(137, 43, 226, 0.671);
+  color: blueviolet;
+}
+/*  */
+@media screen and (max-width: 767px) {
+  .list a::after {
+    width: 76px !important ;
+    height: 76px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .list a::after {
+    width: 14.2vw !important ;
+    height: 14.2vw !important;
+    border: 5px solid #d8edef;
+  }
+}
