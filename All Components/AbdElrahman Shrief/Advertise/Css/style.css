@@ -1,0 +1,48 @@
+body {
+    color: #29333f;
+    background-color: #fff;
+
+}
+.bg-gray{
+    background-color: #f7f7f7;
+
+}
+.link {
+    color: #16c1f5 !important;
+}
+
+.bg-rgba {
+    background-color: rgba(29, 33, 40, 0.9);
+}
+
+.slogan::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 35px;
+    top: -2px;
+    left: -7px;
+    background-color: #FFF;
+}
+
+.color-green {
+    color: #009688;
+}
+
+.color-red {
+    color: #ff3280;
+}
+
+.color-prp {
+    color: #bf68f6;
+}
+
+.fa-1-5x {
+    font-size: 1.4rem;
+}
+.btn-danger{
+    transition: all 0.3 ;
+}
+.btn-danger:hover{
+    opacity: 0.8;
+}
