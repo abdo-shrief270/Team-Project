@@ -1,0 +1,52 @@
+body{
+    background-color: #e3ecf0;
+}
+.diseases
+{
+    width: 100%;
+    height: 238px;
+    background-image: url(../Images/diseases.jpg);
+    background-size: 100% 100%;
+    margin-top:100px ;
+    text-align: center;
+}
+.diseases-head
+{
+    color: rgb(155, 155, 155);
+    font-size: 25px;
+    padding-top: 70px;
+}
+
+.search-input
+{
+    border: solid 1px #ee9119;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+}
+.line
+{
+    width: 100%;
+    height: 4px;
+    background-color: #16c1f5;
+    margin-top: 10px;
+}
+.container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: 000;
+}
+.container span
+{
+    color: gray;
+    font-size: 35px;
+}
+.info
+{
+    width: 100%;
+    border: solid 1px #ee9119;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+
